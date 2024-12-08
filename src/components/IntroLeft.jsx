@@ -31,13 +31,14 @@ export const IntroLeft = () => {
         </h3>
 
         <h1 className="text-[24px] sm:text-[40px] p-2">
-          <Typewriter
+          {/* <Typewriter
             options={{
               strings: ['Real Estate Design in Jamshedpur Crafted with love By @Mazhar'],
               autoStart: true,
               loop: true,
-            }}
-          />
+            }} */}
+      
+          Real Estate Design in Jamshedpur Crafted with love By @Mazhar
         </h1>
 
         <div className="mt-[20px] flex flex-row items-center" onClick={handleClick}>
