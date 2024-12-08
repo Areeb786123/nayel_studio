@@ -1,5 +1,4 @@
 import React from 'react'
-import Typewriter from 'typewriter-effect';
 import anim from '../assest/whatsapp.gif'
 import videoBackground from '../assest/background.mp4'
 import image from '../assest/logo.png'
