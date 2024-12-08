@@ -1,8 +1,8 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 import anim from '../assest/whatsapp.gif'
-
-import { Player } from '@lottiefiles/react-lottie-player';
+import videoBackground from '../assest/background.mp4'
+import image from '../assest/logo.png'
 
 
 
@@ -15,37 +15,36 @@ export const IntroLeft = () => {
     window.open(url, '_blank'); // Opens WhatsApp in a new tab or app
   };
   return (
-    <div className="w-full bg-white min-h-screen flex items-center justify-center p-4">
-    <div className="flex flex-col items-center">
-      <h3 className="text-center text-[14px] sm:text-[20px] p-2">
-        Building your dreams
-      </h3>
-      <h1 className="text-center text-[24px] sm:text-[40px] p-2">
-        <Typewriter
-          options={{
-            strings: ['Real Estate Design in Jamshedpur Crafted with love By @Mazhar'],
-            autoStart: true,
-            loop: true,
-          }}
-        />
-      </h1>
-
-      <div className='mt-[20px] flex flex-row item-center' onClick={handleClick}>
-        <h2 className='mt-[20px]'>Connect us</h2>
-
-        <img class ='ms-[20px] h-[60px] w-[60px]' src={anim}/>
+    <div className="w-full h-screen bg-white min-h-screen flex items-center justify-center p-4 video-background relative">
+      <div className="absolute top-0 left-0 w-full h-full">
+        <video autoPlay loop muted className="w-full h-full object-cover">
+          <source src={videoBackground} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
-      {/* <Player
-  src='https://assets1.lottiefiles.com/packages/lf20_myejiggj.json'
-  className="player w-full h- [200px]"
-  loop
-  autoplay
-  speed={10}
-/> */}
-      
-    </div>
 
-  </div>
-  
+
+      <div className="relative z-10 flex flex-col items-center content text-white text-center">
+      <img src={image}/>
+        <h3 className="text-[14px] sm:text-[20px] p-2">
+          Building your dreams
+        </h3>
+
+        <h1 className="text-[24px] sm:text-[40px] p-2">
+          <Typewriter
+            options={{
+              strings: ['Real Estate Design in Jamshedpur Crafted with love By @Mazhar'],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </h1>
+
+        <div className="mt-[20px] flex flex-row items-center" onClick={handleClick}>
+          <h2 className="mt-[20px]">Connect us</h2>
+          <img className="ms-[20px] h-[60px] w-[60px]" src={anim} alt="connect" />
+        </div>
+      </div>
+    </div>
   );
 };

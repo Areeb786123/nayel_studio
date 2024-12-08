@@ -7,38 +7,25 @@ import {RightMidle} from './components/RightMidle'
 import { Intro, IntroLeft } from './components/IntroLeft';
 import { IntoRight } from './components/IntoRight';
 import {ImageWritter} from './components/ImageWritter.jsx'
+import { Footera } from './footer/Footera.jsx';
+import { Header } from './header/Header.jsx';
 
-// function App() {
-//   return (
-
-//     <div className="App">
-//       <div class="grid grid-cols-2 divide-x">
-//   <div><IntroLeft/></div>
-//   <div><IntoRight/></div>
-// </div>
-//       <Cards/>
-//       <div class='grid grid-cols-2 gap-4 '>
-//       <Middle/>
-//       <RightMidle/>
-//       </div>
-//       <GridCards/>
-//     </div>
-//   );
-// }
 
 function App() {
   return (
     <div className="App">
       {/* Responsive grid for Intro section */}
-      <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x">
         <div className="p-4">
           <IntroLeft />
         </div>
         <div className="p-4">
           <IntoRight />
         </div>
-      </div>
+      </div> */}
+{/* <Header/> */}
 
+<IntroLeft />
       {/* Cards component */}
       <Cards />
 
@@ -55,6 +42,8 @@ function App() {
       {/* GridCards component */}
       <GridCards />
       <ImageWritter/>
+      <Footera/>
+
     </div>
   );
 }
