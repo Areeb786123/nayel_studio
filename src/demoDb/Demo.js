@@ -4,4 +4,6 @@ export const demoImageData = [
   { img: "https://cloud.appwrite.io/v1/storage/buckets/676d2683002ec8ba8547/files/677ab5e7002a8ed03e4b/view?project=676d263e00386ae44d7d&project=676d263e00386ae44d7d&mode=admin" },
 {img: "https://cloud.appwrite.io/v1/storage/buckets/676d2683002ec8ba8547/files/677ac056003cea6b23ab/view?project=676d263e00386ae44d7d&project=676d263e00386ae44d7d&mode=admin"},{
   img: "https://cloud.appwrite.io/v1/storage/buckets/676d2683002ec8ba8547/files/677ac04e0024c4e58050/view?project=676d263e00386ae44d7d&project=676d263e00386ae44d7d&mode=admin"
+},{
+  img: "https://cloud.appwrite.io/v1/storage/buckets/676d2683002ec8ba8547/files/677ac121002832e36b52/view?project=676d263e00386ae44d7d&project=676d263e00386ae44d7d&mode=admin"
 }];
