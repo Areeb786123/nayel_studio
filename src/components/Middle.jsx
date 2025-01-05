@@ -5,13 +5,13 @@ import React from 'react'
 export const Middle = () => {
   const list = [
     {
-      img: "https://images.unsplash.com/photo-1532197894789-9865bcdbc277?q=80&w=3426&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "https://cloud.appwrite.io/v1/storage/buckets/676d2683002ec8ba8547/files/677ab5e7002a8ed03e4b/view?project=676d263e00386ae44d7d&project=676d263e00386ae44d7d&mode=admin",
     },
     {
-      img: "https://images.unsplash.com/photo-1678712506929-b8fa924c9f21?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "https://cloud.appwrite.io/v1/storage/buckets/676d2683002ec8ba8547/files/677ab64500314bd0726a/view?project=676d263e00386ae44d7d&project=676d263e00386ae44d7d&mode=admin",
     },
     {
-      img: "https://plus.unsplash.com/premium_photo-1670011072722-e2d6036a57c5?q=80&w=3247&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "https://cloud.appwrite.io/v1/storage/buckets/676d2683002ec8ba8547/files/677ab623002f44799669/view?project=676d263e00386ae44d7d&project=676d263e00386ae44d7d&mode=admin",
     },
   ];
 
